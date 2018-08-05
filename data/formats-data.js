@@ -7688,6 +7688,14 @@ let BattleFormatsData = {
 		gen: 5,
 		tier: "Illegal",
 	},
+	rectreem: {
+		randomBattleMoves: ["sunnyday", "sleeppowder", "gigadrain", "hiddenpowerfire", "sludgebomb", "leechseed", "substitute"],
+		randomDoubleBattleMoves: ["sleeppowder", "gigadrain", "hiddenpowerfire", "hiddenpowerice", "sludgebomb", "powerwhip", "protect"],
+		eventPokemon: [
+			{"generation": 6, "level": 100, "isHidden": true, "moves": ["solarbeam", "frenzyplant", "synthesis", "grasspledge"], "pokeball": "cherishball"},
+		],
+		tier: "CAP",
+	},
 };
 
 exports.BattleFormatsData = BattleFormatsData;

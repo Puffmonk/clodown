@@ -14046,6 +14046,18 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
+	rectreem: {
+		num: -120,
+		species: "Rectreem",
+		types: ["Grass", "Ground"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 90, atk: 120, def: 95, spa: 70, spd: 70, spe: 80},
+		abilities: {0: "Overgrow"},
+		heightm: 2,
+		weightkg: 100,
+		color: "Green",
+		eggGroups: ["Monster", "Grass"],
+	},
 };
 
 exports.BattlePokedex = BattlePokedex;
